@@ -18,3 +18,19 @@
     background-color: teal;
   }
 }
+
+@media screen and (max-width: 480px) and (min-width: 300px) {
+  body {
+    color: #4286f4;
+    font-family: cursive;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+    body {
+      background-color: #75b22a;
+      font-family: fantasy;
+      text-shadow: 1px 1px #ff0000;
+      font-size: 16px;
+    }
+}
